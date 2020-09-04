@@ -9,6 +9,7 @@ public class Win {
             if (diag[i] == 1) {
                 if (checkHorizontalLine(board, i) || checkVerticalLine(board, i)) {
                     rsl = true;
+                    break;
                 }
             }
         }
